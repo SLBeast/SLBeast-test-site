@@ -1,0 +1,71 @@
+.collapsible {
+    background-color: #ff639fc1;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: auto;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    transition: all 300ms ease-in-out;
+    
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #ffb5d5;
+    scale: 101%;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #ffffe8;
+    border-radius: 25px;
+    transition: all 300ms ease-in-out;
+  }
+
+  .about_p{
+    font-family: Copperplate, Papyrus, fantasy;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 20px;
+    height: 100% !;
+  }
+
+  .content-wrapper{
+    width: 97%;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(146, 71, 71, 0);
+  }
+
+  .top-wrap{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .top-left{
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+  }
+
+  .top-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+  }
+
+ 
