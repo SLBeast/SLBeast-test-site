@@ -1,0 +1,31 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-color: #cccccc;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.purchase_card{
+    display: block;
+    background-color: antiquewhite;
+    margin: 150px;
+    padding-top: 20px;
+    border-radius: 50px;
+    border-color: rgb(255, 145, 0);
+}
+
+.card_left{
+    float: left;
+    display: block;
+    flex: 50%;
+    flex-direction: column;
+}
+
+.card_right{
+    float: left;
+    display: block;
+    flex: 50%;
+    flex-direction: column;
+
+}
