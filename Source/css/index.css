@@ -1,0 +1,126 @@
+.category_container_main{
+background-color: rgba(255, 228, 196, 0.67);
+border-radius: 25px;
+padding: 25px;
+
+
+}
+
+.category_container {
+    position: relative;
+    width: 80%;
+    cursor: pointer;
+  
+    
+  }
+  
+  .category_image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .category_overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #df911b;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+    border-radius: 25px;
+  }
+  
+  .category_container:hover .category_overlay {
+    bottom: 0;
+    height: 100%;
+    scale: 110%;
+  }
+  
+  .category_text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+    margin: 0 auto;
+}
+
+.column {
+    display: flex;
+    
+    justify-content: center;
+    }
+
+    
+      
+      
+      .element-big  {
+        width: 100%;
+        height: 500px;
+      }
+      
+      .element-animation {
+        margin: 2rem 0;
+        font-size: 3rem;
+        
+        
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      
+      .element-animation.element-show {
+        opacity: 1;
+        transition: all 1.5s;
+        transform: translateY(0%);
+      }
+
+   
+
+      .promo_container {
+        margin: auto;
+        position: relative;
+        width: 100%;
+        max-width: 1000px;
+        align-items: center;
+      }
+      
+      .promo_container .promo_img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .promo_container .promo_btn {
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #000000;
+        color: white;
+        font-size: 20px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+      }
+      
+      .promo_container .promo_btn:hover {
+        background-color: rgb(255, 0, 0);
+      }
