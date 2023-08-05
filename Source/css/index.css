@@ -153,6 +153,7 @@ padding: 25px;
   animation-name: animation2;
   animation-duration: 750ms;
   animation-timing-function: ease-in-out;
+  cursor: pointer;
   
  
 }
@@ -160,7 +161,7 @@ padding: 25px;
 .auth_image:hover{
   scale: 90%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.936);
-  
+  cursor: pointer;
 }
 .auth_card_text{
   
