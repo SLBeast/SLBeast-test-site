@@ -124,3 +124,60 @@ padding: 25px;
       .promo_container .promo_btn:hover {
         background-color: rgb(255, 0, 0);
       }
+
+      
+  
+      
+.auth_image{
+  border-radius: 50%;
+  width: 70%;
+
+}
+
+.hide {
+  display: none;
+  background-color: rgba(225, 183, 11, 0.645);
+  border-radius: 25px;
+  width: 350px;
+  margin: auto;
+  cursor: pointer;
+  transition: all ease-in-out 800ms;
+ 
+}
+
+.auth_image:hover + .hide {
+  display: block;
+ 
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.877);
+  transition: all ease-in-out 500ms;
+  animation-name: animation2;
+  animation-duration: 750ms;
+  animation-timing-function: ease-in-out;
+  
+ 
+}
+
+.auth_image:hover{
+  scale: 90%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.936);
+  
+}
+.auth_card_text{
+  
+  text-align: center;
+  font-size: 17px;
+  font-family: monospace;
+}
+
+.auth_card_title{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@keyframes animation2 {
+  from {opacity: 0%;}
+  to{opacity: 100%;}
+  
+}

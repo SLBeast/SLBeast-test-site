@@ -18,7 +18,7 @@
   
   .active, .collapsible:hover {
     background-color: #ffb5d5;
-    scale: 101%;
+    scale: 105%;
   }
   
   .content {
