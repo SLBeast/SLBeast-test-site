@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="images/logo1.png">
+    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+     
+
+        input[type=text], input[type=password] {
+             width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;}
+
+
+        .main_container{
+            width: auto;
+            margin: auto;
+            
+            
+
+        }        
+        .login_container {
+            background-color: aliceblue;
+            width: 25%;
+            padding: 25px;
+            margin: auto;
+            
+           }
+       
+
+        .label {
+            
+            font-size: 15px;
+
+        }
+
+        .login_btn{
+            background-color: #04AA6D;
+             color: white;
+             padding: 14px 20px;
+             margin: 8px 0;
+             border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .login_btn:hover{
+            background-color: rgb(45, 191, 28);
+        }
+
+        .cancel_btn{
+            background-color: #ae1313;
+             color: white;
+             padding: 7px 10px;
+             margin: 8px 0;
+             border: none;
+            cursor: pointer;
+            width: 20%;
+            margin-left: 10px;
+        }
+        .cancel_btn:hover{
+            background-color: rgb(154, 4, 4);
+        }
+        .link1{color: blue;}
+    </style>
+</head>
+<body>
+    <div class="main_container">
+        <div class="login_container" style="background-color: transparent; text-align: center;">
+            <h1>Login</h1>
+        </div>
+    <div class="login_container">
+    <form action="login.php" method="post">
+    <label class="label">Email/Username</label><br>
+    <input type="text" placeholder="user@gmail.com" required><br>
+    <label class="label" aria-placeholder="Password">Passoword</label><br>
+    <input type="password" required><br>
+    <button type="submit" value="submit" class="login_btn" >Login</button> <br>
+    <input type="checkbox" checked="checked" name="remember"> Remember me
+    <span  style="float: right; padding-right: 10px;">Dont have an Account? <a href="#signup"> <span class="link1">Signup</span></a></span>
+    </form>
+    </div>  
+    
+    <div class="login_container" style="background-color: aliceblue; ">
+       <a href="../index.html"> <button type="button"  class="cancel_btn">Cancel</button></a>
+        <span style="float: right; padding: 15px 10px; ">Forgot <a href="#password"><span class="link1">password?</span></a></span>
+    </div>
+    </div>
+</body>
+</html>
